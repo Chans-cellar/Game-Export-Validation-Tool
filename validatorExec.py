@@ -153,7 +153,7 @@ class NamingValidator(QWidget):
                 distance = self.levenshtein_distance(unprefixed_MeshName, x)
                 if distance < minimum:
                     minimum = distance
-                    if minimum < 3:
+                    if minimum < 4:
                         matched_mesh = unprefixed_MeshName
 
             # if no matches found
